@@ -1,0 +1,11 @@
+.\objects\qsort.o: ..\..\Library\Libc\qsort.c
+.\objects\qsort.o: ..\..\Library\Libc\sys/types.h
+.\objects\qsort.o: ..\..\RTOS\include\rtthread.h
+.\objects\qsort.o: ..\..\App\rtconfig.h
+.\objects\qsort.o: ..\..\RTOS\include\rtdebug.h
+.\objects\qsort.o: ..\..\RTOS\include\rtdef.h
+.\objects\qsort.o: ..\..\Library\Libc\stdarg.h
+.\objects\qsort.o: ..\..\RTOS\include\rtservice.h
+.\objects\qsort.o: ..\..\RTOS\include\rtm.h
+.\objects\qsort.o: ..\..\RTOS\include\rtthread.h
+.\objects\qsort.o: ..\..\Library\Libc\stdlib.h

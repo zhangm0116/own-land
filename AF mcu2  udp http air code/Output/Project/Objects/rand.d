@@ -1,0 +1,12 @@
+.\objects\rand.o: ..\..\Library\Libc\rand.c
+.\objects\rand.o: ..\..\Library\Libc\stdlib.h
+.\objects\rand.o: ..\..\Library\Libc\sys/types.h
+.\objects\rand.o: ..\..\RTOS\include\rtthread.h
+.\objects\rand.o: ..\..\App\rtconfig.h
+.\objects\rand.o: ..\..\RTOS\include\rtdebug.h
+.\objects\rand.o: ..\..\RTOS\include\rtdef.h
+.\objects\rand.o: ..\..\Library\Libc\stdarg.h
+.\objects\rand.o: ..\..\RTOS\include\rtservice.h
+.\objects\rand.o: ..\..\RTOS\include\rtm.h
+.\objects\rand.o: ..\..\RTOS\include\rtthread.h
+.\objects\rand.o: ..\..\Library\Libc\stdint.h

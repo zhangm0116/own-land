@@ -1,0 +1,12 @@
+.\objects\time.o: ..\..\Library\Libc\time.c
+.\objects\time.o: ..\..\Library\Libc\time.h
+.\objects\time.o: ..\..\Library\Libc\sys/time.h
+.\objects\time.o: ..\..\Library\Libc\sys/types.h
+.\objects\time.o: ..\..\RTOS\include\rtthread.h
+.\objects\time.o: ..\..\App\rtconfig.h
+.\objects\time.o: ..\..\RTOS\include\rtdebug.h
+.\objects\time.o: ..\..\RTOS\include\rtdef.h
+.\objects\time.o: ..\..\Library\Libc\stdarg.h
+.\objects\time.o: ..\..\RTOS\include\rtservice.h
+.\objects\time.o: ..\..\RTOS\include\rtm.h
+.\objects\time.o: ..\..\RTOS\include\rtthread.h

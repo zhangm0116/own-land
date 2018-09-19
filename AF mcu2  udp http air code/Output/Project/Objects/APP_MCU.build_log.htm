@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ff jerry, ff, LIC=P6F56-DFE2W-UM59A-141YL-VZYPP-TTWZ1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\autoflight\AF_MCU2  udp http air code\Output\Project\APP_MCU.uvprojx
+Project File Date:  08/10/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'DEMO'
+compiling udp_connect.c...
+..\..\Library\Libc\stdint.h(23): warning:  #47-D: incompatible redefinition of macro "INT8_MIN" (declared at line 117 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT8_MIN                (-0x7f - 1)
+..\..\Library\Libc\stdint.h(24): warning:  #47-D: incompatible redefinition of macro "INT16_MIN" (declared at line 118 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT16_MIN               (-0x7fff - 1)
+..\..\Library\Libc\stdint.h(25): warning:  #47-D: incompatible redefinition of macro "INT32_MIN" (declared at line 119 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT32_MIN               (-0x7fffffff - 1)
+..\..\Library\Libc\stdint.h(27): warning:  #47-D: incompatible redefinition of macro "INT8_MAX" (declared at line 123 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT8_MAX                0x7f
+..\..\Library\Libc\stdint.h(28): warning:  #47-D: incompatible redefinition of macro "INT16_MAX" (declared at line 124 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT16_MAX               0x7fff
+..\..\Library\Libc\stdint.h(29): warning:  #47-D: incompatible redefinition of macro "INT32_MAX" (declared at line 125 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       INT32_MAX               0x7fffffff
+..\..\Library\Libc\stdint.h(31): warning:  #47-D: incompatible redefinition of macro "UINT8_MAX" (declared at line 129 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       UINT8_MAX               0xff
+..\..\Library\Libc\stdint.h(32): warning:  #47-D: incompatible redefinition of macro "UINT16_MAX" (declared at line 130 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       UINT16_MAX              0xffff
+..\..\Library\Libc\stdint.h(33): warning:  #47-D: incompatible redefinition of macro "UINT32_MAX" (declared at line 131 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define       UINT32_MAX              0xffffffffU
+..\..\Library\Libc\stdint.h(46): warning:  #47-D: incompatible redefinition of macro "SIZE_MAX" (declared at line 227 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h")
+  #define SIZE_MAX      ULONG_MAX
+..\..\App\udp_connect.c(121): warning:  #177-D: variable "rtmaddr" was declared but never referenced
+                 struct ip_addr  rtmaddr;   
+..\..\App\udp_connect.c(150): warning:  #550-D: variable "rtaddr" was set but never used
+          struct sockaddr_in  rtaddr;  
+..\..\App\udp_connect.c(151): warning:  #177-D: variable "newconnect" was declared but never referenced
+      int sock_fd,newconnect;                    /* client socked */  
+..\..\App\udp_connect.c(154): warning:  #177-D: variable "optval" was declared but never referenced
+          unsigned char optval = 1; 
+..\..\App\udp_connect.c(336): warning:  #177-D: variable "udppcb_track" was declared but never referenced
+        struct udp_pcb *udppcb_track;  
+..\..\App\udp_connect.c: 15 warnings, 0 errors
+linking...
+Program Size: Code=136572 RO-data=24092 RW-data=976 ZI-data=57088  
+FromELF: creating hex file...
+".\Objects\APP_MCU.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\autoflight\AF_MCU2  udp http air code\Output\Project\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+</pre>
+</body>
+</html>

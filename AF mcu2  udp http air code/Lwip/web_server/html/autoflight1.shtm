@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>AUTOFLIGHT</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="800" border="1" align="center">
+  <tr>
+    <td height="114" colspan="4"><div align="center"><img src="../makefsdata/fs/tuchuan.png" width="703" height="109"></div></td>
+  </tr>
+  <tr>
+    <td width="194" height="35"><div align="center" class="STYLE1">TX_FREQ</div></td>
+    <td width="202"><!--#a-->MHZ</td>
+    <td width="181"><div align="center"><span class="STYLE1">RX_FREQ</span></div></td>
+    <td width="195"><!--#b-->MHZ</td>
+  </tr>
+  <tr>
+    <td height="32"><div align="center" class="STYLE1">LDPC_PASS</div></td>
+    <td><!--#c-->ldpc</td>
+    <td><div align="center" class="STYLE1">LDPC_FAIL</div></td>
+    <td><!--#d-->ldpc</td>
+  </tr>
+  <tr>
+    <td height="35"><div align="center" class="STYLE1">SNR</div></td>
+    <td><!--#e-->snr</td>
+    <td><div align="center" class="STYLE1">TX_POWER</div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="33"><div align="center" class="STYLE1">RF_TEMP</div></td>
+     <td height="33"><!--#rfw-->℃</td>
+     <td><div align="center" class="STYLE1">BB_TEMP</div></td>
+     <td height="33"><!--#bbw-->℃</td>
+  </tr>
+  <tr>
+    <td height="34"><div align="center" class="STYLE1">DOWNLINK</div></td>
+    <td>&nbsp;</td>
+    <td><div align="center" class="STYLE1">BW</div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="35"><div align="center" class="STYLE1">A_VGA</div></td>
+    <td>&nbsp;</td>
+    <td><div align="center" class="STYLE1">A_RSSI</div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="33"><div align="center" class="STYLE1">B_VGA</div></td>
+    <td>&nbsp;</td>
+    <td><div align="center" class="STYLE1">B_RSSI</div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34"><div align="center" class="STYLE1">CURRENT_ANT</div></td>
+    <td height="34"> <!--#ant-->antenna</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

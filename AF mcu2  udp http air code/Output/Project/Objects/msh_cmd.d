@@ -1,0 +1,13 @@
+.\objects\msh_cmd.o: ..\..\Library\Finsh\msh_cmd.c
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtthread.h
+.\objects\msh_cmd.o: ..\..\App\rtconfig.h
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtdebug.h
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtdef.h
+.\objects\msh_cmd.o: ..\..\Library\Libc\stdarg.h
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtservice.h
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtm.h
+.\objects\msh_cmd.o: ..\..\RTOS\include\rtthread.h
+.\objects\msh_cmd.o: ..\..\Library\Finsh\finsh.h
+.\objects\msh_cmd.o: ..\..\Library\Libc\sys/types.h
+.\objects\msh_cmd.o: ..\..\Library\Libc\string.h
+.\objects\msh_cmd.o: ..\..\Library\Finsh\msh.h

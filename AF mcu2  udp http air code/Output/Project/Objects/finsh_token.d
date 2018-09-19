@@ -1,0 +1,15 @@
+.\objects\finsh_token.o: ..\..\Library\Finsh\finsh_token.c
+.\objects\finsh_token.o: ..\..\Library\Finsh\finsh.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_token.o: ..\..\App\rtconfig.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtdebug.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtdef.h
+.\objects\finsh_token.o: ..\..\Library\Libc\stdarg.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtservice.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtm.h
+.\objects\finsh_token.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_token.o: ..\..\Library\Libc\sys/types.h
+.\objects\finsh_token.o: ..\..\Library\Libc\string.h
+.\objects\finsh_token.o: ..\..\Library\Libc\stdlib.h
+.\objects\finsh_token.o: ..\..\Library\Finsh\finsh_token.h
+.\objects\finsh_token.o: ..\..\Library\Finsh\finsh_error.h

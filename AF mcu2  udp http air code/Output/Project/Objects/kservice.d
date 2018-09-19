@@ -1,0 +1,10 @@
+.\objects\kservice.o: ..\..\RTOS\kernel\kservice.c
+.\objects\kservice.o: ..\..\RTOS\include\rtthread.h
+.\objects\kservice.o: ..\..\App\rtconfig.h
+.\objects\kservice.o: ..\..\RTOS\include\rtdebug.h
+.\objects\kservice.o: ..\..\RTOS\include\rtdef.h
+.\objects\kservice.o: ..\..\Library\Libc\stdarg.h
+.\objects\kservice.o: ..\..\RTOS\include\rtservice.h
+.\objects\kservice.o: ..\..\RTOS\include\rtm.h
+.\objects\kservice.o: ..\..\RTOS\include\rtthread.h
+.\objects\kservice.o: ..\..\RTOS\include\rthw.h
