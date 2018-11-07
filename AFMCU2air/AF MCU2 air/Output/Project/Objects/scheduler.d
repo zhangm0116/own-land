@@ -1,0 +1,10 @@
+.\objects\scheduler.o: ..\..\RTOS\kernel\scheduler.c
+.\objects\scheduler.o: ..\..\RTOS\include\rtthread.h
+.\objects\scheduler.o: ..\..\App\rtconfig.h
+.\objects\scheduler.o: ..\..\RTOS\include\rtdebug.h
+.\objects\scheduler.o: ..\..\RTOS\include\rtdef.h
+.\objects\scheduler.o: ..\..\Library\Libc\stdarg.h
+.\objects\scheduler.o: ..\..\RTOS\include\rtservice.h
+.\objects\scheduler.o: ..\..\RTOS\include\rtm.h
+.\objects\scheduler.o: ..\..\RTOS\include\rtthread.h
+.\objects\scheduler.o: ..\..\RTOS\include\rthw.h

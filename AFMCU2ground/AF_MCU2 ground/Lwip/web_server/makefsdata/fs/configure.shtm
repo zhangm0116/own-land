@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>autoflight configure</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #CC3300;
+	font-size: 36px;
+}
+.STYLE2 {font-size: x-large}
+.STYLE6 {font-size: 24px; color: #000000; }
+.STYLE9 {color: #000000}
+.STYLE11 {font-size: large; }
+.STYLE12 {font-size: medium; }
+.STYLE13 {
+	font-size: medium;
+	color: #CC0000;
+	font-weight: bold;
+}
+.STYLE14 {font-size: x-large; font-weight: bold; }
+.STYLE15 {font-size: 24px; color: #CC0033; }
+.STYLE17 {font-size: 24px; color: #000033; }
+-->
+</style>
+</head>
+
+<body>
+<table width="750" height="575" border="1" align="center">
+  <tr>
+    <td height="80" colspan="2"><div align="center" class="STYLE15">图传参数配置</div></td>
+  </tr>
+  <tr>
+    <td height="55" colspan="2" align="center" valign="middle" class="STYLE15">AIR</td>
+  </tr>
+  <tr>
+    <td height="67" align="center" valign="middle"><form id="airtxfreq" name="airtxfreq" method="get" action="/airtxfreq.cgi">
+      <div align="center"><span class="STYLE6">Tx_Freq</span>
+          <input name="airtxfreq" type="text" class="STYLE2" id="airtxfreq" size="5" maxlength="10" /> 
+          <input name="Submit7" type="submit" class="STYLE6" value="set" />
+        </div>
+    </form>    </td>
+    <td><form id="form8" name="form8" method="get" action="/airrxfreq.cgi">
+      <div align="center"><span class="STYLE6">Rx_Freq</span>
+          <input name="airrxfreq" type="text" class="STYLE2" id="airrxfreq" size="5" maxlength="10" />
+          <input name="Submit8" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="60" align="center" valign="middle"><form action="/airtxpower.cgi" method="get" name="form9" class="STYLE17" id="form9">
+      <div align="center"><span class="STYLE6">Tx_Power</span>
+        <input name="airtxpower" type="text" class="STYLE2" id="airtxpower" size="5" maxlength="10" />
+          <input name="Submit9" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+    <td><form id="form10" name="form10" method="get" action="/airdownlink.cgi">
+      <div align="center"><span class="STYLE6">DownLink</span>
+          <input name="airdownlink" type="text" class="STYLE2" id="airdownlink" size="5" maxlength="10" />
+          <input name="Submit10" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="58" align="center" valign="middle"><form action="/airantsel.cgi" method="get" name="form11" class="STYLE6" id="form11">
+      <div align="center">ANT_SEL
+        <input name="airantsel" type="text" class="STYLE2" id="airantsel" size="5" maxlength="10" />
+        <input name="Submit11" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="53" colspan="2" align="center" valign="middle" class="STYLE15">GROUND</td>
+  </tr>
+  <tr>
+    <td width="325" height="60" align="center" valign="middle"><form action="/txfreq.cgi" method="get" name="form1" class="STYLE6" id="form1">
+        Tx_Freq 
+          <input name="txfreq" type="text" class="STYLE2" size="5" maxlength="10" />
+          
+        <label> </label>
+        <input name="Submit" type="submit" class="STYLE6" value="set" />
+    </form></td>
+    <td width="325"><form action="/rxfreq.cgi" method="get" name="form2" class="STYLE6" id="form2">
+      <div align="center"> Rx_Freq  
+          <input name="rxfreq" type="text" class="STYLE2" size="5" maxlength="10" />
+          <input name="Submit2" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="60"><form action="/txpower.cgi" method="get" name="form3" class="STYLE6" id="form3">
+      <div align="center">Tx_Power  
+        <input name="txpower" type="text" class="STYLE2" id="txpower" size="5" maxlength="10" />
+        <input name="Submit3" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+    <td><form action="/downlink.cgi" method="get" name="form4" class="STYLE6" id="form4">
+      <div align="center">DownLink  
+           <input name="downlink" type="text" class="STYLE2" id="downlink" size="5" maxlength="10" />
+           <input name="Submit4" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+  </tr>
+  <tr>
+    <td height="60"><form action="/ant_sel.cgi" method="get" name="form12" class="STYLE6" id="form12">
+      <div align="center">ANT_SEL
+        <input name="ant_sel" type="text" class="STYLE2" id="ant_sel" size="5" maxlength="10" />  
+        <input name="Submit12" type="submit" class="STYLE6" value="set" />
+      </div>
+    </form>    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ <p>&nbsp;</p>
+ <form id="form7" name="form7" method="get" action="/back.cgi">
+   <div align="center">
+     <input name="Submit6" type="submit" class="STYLE14" value="BACK" />
+   </div>
+</form>
+ <form id="form6" name="form6" method="get" action="">
+   <div align="center" class="STYLE2">
+     <p class="STYLE13">(配置参数请先配置天空端再配置地面段)</p>
+     <p class="STYLE12"><strong>上海骄翔智能技术有限公司 </strong></p>
+   </div>
+ </form>
+ <p align="center" class="STYLE11">&nbsp;</p>
+</body>
+</html>

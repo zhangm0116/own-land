@@ -1,0 +1,11 @@
+.\objects\ctype.o: ..\..\Library\Libc\ctype.c
+.\objects\ctype.o: ..\..\RTOS\include\rtthread.h
+.\objects\ctype.o: ..\..\App\rtconfig.h
+.\objects\ctype.o: ..\..\RTOS\include\rtdebug.h
+.\objects\ctype.o: ..\..\RTOS\include\rtdef.h
+.\objects\ctype.o: ..\..\Library\Libc\stdarg.h
+.\objects\ctype.o: ..\..\RTOS\include\rtservice.h
+.\objects\ctype.o: ..\..\RTOS\include\rtm.h
+.\objects\ctype.o: ..\..\RTOS\include\rtthread.h
+.\objects\ctype.o: ..\..\Library\Libc\sys/types.h
+.\objects\ctype.o: ..\..\Library\Libc\ctype.h

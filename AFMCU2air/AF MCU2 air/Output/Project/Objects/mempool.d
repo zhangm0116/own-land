@@ -1,0 +1,10 @@
+.\objects\mempool.o: ..\..\RTOS\kernel\mempool.c
+.\objects\mempool.o: ..\..\RTOS\include\rthw.h
+.\objects\mempool.o: ..\..\RTOS\include\rtthread.h
+.\objects\mempool.o: ..\..\App\rtconfig.h
+.\objects\mempool.o: ..\..\RTOS\include\rtdebug.h
+.\objects\mempool.o: ..\..\RTOS\include\rtdef.h
+.\objects\mempool.o: ..\..\Library\Libc\stdarg.h
+.\objects\mempool.o: ..\..\RTOS\include\rtservice.h
+.\objects\mempool.o: ..\..\RTOS\include\rtm.h
+.\objects\mempool.o: ..\..\RTOS\include\rtthread.h

@@ -1,0 +1,12 @@
+.\objects\symbol.o: ..\..\Library\Finsh\symbol.c
+.\objects\symbol.o: ..\..\Library\Finsh\finsh.h
+.\objects\symbol.o: ..\..\RTOS\include\rtthread.h
+.\objects\symbol.o: ..\..\App\rtconfig.h
+.\objects\symbol.o: ..\..\RTOS\include\rtdebug.h
+.\objects\symbol.o: ..\..\RTOS\include\rtdef.h
+.\objects\symbol.o: ..\..\Library\Libc\stdarg.h
+.\objects\symbol.o: ..\..\RTOS\include\rtservice.h
+.\objects\symbol.o: ..\..\RTOS\include\rtm.h
+.\objects\symbol.o: ..\..\RTOS\include\rtthread.h
+.\objects\symbol.o: ..\..\Library\Libc\sys/types.h
+.\objects\symbol.o: ..\..\Library\Libc\string.h

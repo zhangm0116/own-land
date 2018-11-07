@@ -1,0 +1,12 @@
+.\objects\i2c_bit_ops.o: ..\..\Drive\i2c_bit_ops.c
+.\objects\i2c_bit_ops.o: ..\..\Drive\i2c_bit_ops.h
+.\objects\i2c_bit_ops.o: ..\..\Library\Libc\stdint.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtthread.h
+.\objects\i2c_bit_ops.o: ..\..\App\rtconfig.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtdebug.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtdef.h
+.\objects\i2c_bit_ops.o: ..\..\Library\Libc\stdarg.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtservice.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtm.h
+.\objects\i2c_bit_ops.o: ..\..\RTOS\include\rtthread.h
+.\objects\i2c_bit_ops.o: ..\..\Drive\i2c_bus.h

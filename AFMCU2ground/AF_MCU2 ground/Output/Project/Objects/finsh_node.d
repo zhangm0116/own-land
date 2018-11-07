@@ -1,0 +1,16 @@
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh_node.c
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_node.o: ..\..\App\rtconfig.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtdebug.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtdef.h
+.\objects\finsh_node.o: ..\..\Library\Libc\stdarg.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtservice.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtm.h
+.\objects\finsh_node.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_node.o: ..\..\Library\Libc\sys/types.h
+.\objects\finsh_node.o: ..\..\Library\Libc\string.h
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh_node.h
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh_error.h
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh_var.h
+.\objects\finsh_node.o: ..\..\Library\Finsh\finsh_heap.h

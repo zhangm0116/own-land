@@ -1,0 +1,10 @@
+.\objects\object.o: ..\..\RTOS\kernel\object.c
+.\objects\object.o: ..\..\RTOS\include\rtthread.h
+.\objects\object.o: ..\..\App\rtconfig.h
+.\objects\object.o: ..\..\RTOS\include\rtdebug.h
+.\objects\object.o: ..\..\RTOS\include\rtdef.h
+.\objects\object.o: ..\..\Library\Libc\stdarg.h
+.\objects\object.o: ..\..\RTOS\include\rtservice.h
+.\objects\object.o: ..\..\RTOS\include\rtm.h
+.\objects\object.o: ..\..\RTOS\include\rtthread.h
+.\objects\object.o: ..\..\RTOS\include\rthw.h

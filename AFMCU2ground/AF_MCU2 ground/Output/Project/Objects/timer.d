@@ -1,0 +1,10 @@
+.\objects\timer.o: ..\..\RTOS\kernel\timer.c
+.\objects\timer.o: ..\..\RTOS\include\rtthread.h
+.\objects\timer.o: ..\..\App\rtconfig.h
+.\objects\timer.o: ..\..\RTOS\include\rtdebug.h
+.\objects\timer.o: ..\..\RTOS\include\rtdef.h
+.\objects\timer.o: ..\..\Library\Libc\stdarg.h
+.\objects\timer.o: ..\..\RTOS\include\rtservice.h
+.\objects\timer.o: ..\..\RTOS\include\rtm.h
+.\objects\timer.o: ..\..\RTOS\include\rtthread.h
+.\objects\timer.o: ..\..\RTOS\include\rthw.h

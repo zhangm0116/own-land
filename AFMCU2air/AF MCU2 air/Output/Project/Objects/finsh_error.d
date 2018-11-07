@@ -1,0 +1,13 @@
+.\objects\finsh_error.o: ..\..\Library\Finsh\finsh_error.c
+.\objects\finsh_error.o: ..\..\Library\Finsh\finsh_error.h
+.\objects\finsh_error.o: ..\..\Library\Finsh\finsh.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_error.o: ..\..\App\rtconfig.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtdebug.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtdef.h
+.\objects\finsh_error.o: ..\..\Library\Libc\stdarg.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtservice.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtm.h
+.\objects\finsh_error.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_error.o: ..\..\Library\Libc\sys/types.h
+.\objects\finsh_error.o: ..\..\Library\Libc\string.h

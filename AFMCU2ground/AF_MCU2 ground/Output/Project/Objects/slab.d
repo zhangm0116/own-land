@@ -1,0 +1,10 @@
+.\objects\slab.o: ..\..\RTOS\kernel\slab.c
+.\objects\slab.o: ..\..\RTOS\include\rthw.h
+.\objects\slab.o: ..\..\RTOS\include\rtthread.h
+.\objects\slab.o: ..\..\App\rtconfig.h
+.\objects\slab.o: ..\..\RTOS\include\rtdebug.h
+.\objects\slab.o: ..\..\RTOS\include\rtdef.h
+.\objects\slab.o: ..\..\Library\Libc\stdarg.h
+.\objects\slab.o: ..\..\RTOS\include\rtservice.h
+.\objects\slab.o: ..\..\RTOS\include\rtm.h
+.\objects\slab.o: ..\..\RTOS\include\rtthread.h

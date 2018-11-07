@@ -1,0 +1,13 @@
+.\objects\finsh_heap.o: ..\..\Library\Finsh\finsh_heap.c
+.\objects\finsh_heap.o: ..\..\Library\Finsh\finsh.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_heap.o: ..\..\App\rtconfig.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtdebug.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtdef.h
+.\objects\finsh_heap.o: ..\..\Library\Libc\stdarg.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtservice.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtm.h
+.\objects\finsh_heap.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_heap.o: ..\..\Library\Libc\sys/types.h
+.\objects\finsh_heap.o: ..\..\Library\Libc\string.h
+.\objects\finsh_heap.o: ..\..\Library\Finsh\finsh_var.h

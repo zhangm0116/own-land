@@ -1,0 +1,9 @@
+.\objects\cpuport.o: ..\..\RTOS\port\cpuport.c
+.\objects\cpuport.o: ..\..\RTOS\include\rtthread.h
+.\objects\cpuport.o: ..\..\App\rtconfig.h
+.\objects\cpuport.o: ..\..\RTOS\include\rtdebug.h
+.\objects\cpuport.o: ..\..\RTOS\include\rtdef.h
+.\objects\cpuport.o: ..\..\Library\Libc\stdarg.h
+.\objects\cpuport.o: ..\..\RTOS\include\rtservice.h
+.\objects\cpuport.o: ..\..\RTOS\include\rtm.h
+.\objects\cpuport.o: ..\..\RTOS\include\rtthread.h

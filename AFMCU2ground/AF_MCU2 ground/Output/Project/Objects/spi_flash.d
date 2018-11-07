@@ -1,0 +1,16 @@
+.\objects\spi_flash.o: ..\..\App\spi_flash.c
+.\objects\spi_flash.o: ..\..\Drive\spi_bus.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtthread.h
+.\objects\spi_flash.o: ..\..\App\rtconfig.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtdebug.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtdef.h
+.\objects\spi_flash.o: ..\..\Library\Libc\stdarg.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtservice.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtm.h
+.\objects\spi_flash.o: ..\..\RTOS\include\rtthread.h
+.\objects\spi_flash.o: ..\..\Library\Libc\stdint.h
+.\objects\spi_flash.o: ..\..\App\spi_flash.h
+.\objects\spi_flash.o: ..\..\Library\Libc\sys/types.h
+.\objects\spi_flash.o: ..\..\App\spi_flash_internal.h
+.\objects\spi_flash.o: ..\..\Library\Libc\stdlib.h
+.\objects\spi_flash.o: ..\..\Library\Libc\string.h

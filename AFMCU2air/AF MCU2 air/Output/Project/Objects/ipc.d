@@ -1,0 +1,10 @@
+.\objects\ipc.o: ..\..\RTOS\kernel\ipc.c
+.\objects\ipc.o: ..\..\RTOS\include\rtthread.h
+.\objects\ipc.o: ..\..\App\rtconfig.h
+.\objects\ipc.o: ..\..\RTOS\include\rtdebug.h
+.\objects\ipc.o: ..\..\RTOS\include\rtdef.h
+.\objects\ipc.o: ..\..\Library\Libc\stdarg.h
+.\objects\ipc.o: ..\..\RTOS\include\rtservice.h
+.\objects\ipc.o: ..\..\RTOS\include\rtm.h
+.\objects\ipc.o: ..\..\RTOS\include\rtthread.h
+.\objects\ipc.o: ..\..\RTOS\include\rthw.h

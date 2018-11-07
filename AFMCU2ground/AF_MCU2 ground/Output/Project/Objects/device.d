@@ -1,0 +1,9 @@
+.\objects\device.o: ..\..\RTOS\kernel\device.c
+.\objects\device.o: ..\..\RTOS\include\rtthread.h
+.\objects\device.o: ..\..\App\rtconfig.h
+.\objects\device.o: ..\..\RTOS\include\rtdebug.h
+.\objects\device.o: ..\..\RTOS\include\rtdef.h
+.\objects\device.o: ..\..\Library\Libc\stdarg.h
+.\objects\device.o: ..\..\RTOS\include\rtservice.h
+.\objects\device.o: ..\..\RTOS\include\rtm.h
+.\objects\device.o: ..\..\RTOS\include\rtthread.h

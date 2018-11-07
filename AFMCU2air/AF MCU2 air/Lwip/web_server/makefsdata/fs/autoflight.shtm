@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="refresh" content="1">
+<title>autoflight</title><style type="text/css">
+<!--
+body,td,th {
+	font-size: 18px;
+}
+.STYLE1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.STYLE2 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "新宋体";
+}
+.STYLE3 {color: #CC0000}
+-->
+</style></head>
+
+<body>
+<div align="center">
+  <table width="620" height="493" border="1">
+    <tr>
+      <td height="125" colspan="4"><div align="center"><img src="tuchuan.png" width="647" height="109"></div></td>
+    </tr>
+    <tr>
+      <td width="155"><div align="center"><strong>TX_FREQ</strong></div></td>
+      <td width="155"><!--#a-->MHZ</td>
+      <td width="155"><div align="center"><strong>RX_FREQ</strong></div></td>
+      <td width="155"><!--#b-->MHZ</td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>LDPC_PASS</strong></div></td>
+      <td><!--#c--></td>
+      <td><div align="center"><strong>LDPC_FAIL</strong></div></td>
+      <td><!--#d--></td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>SNR</strong></div></td>
+      <td><!--#e-->db</td>
+      <td><div align="center" class="STYLE1">TX_POWER</div></td>
+      <td><!--#f--></td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>RF_TEMP</strong></div></td>
+      <td><!--#g-->℃</td>
+      <td><div align="center"><strong>BB_TEMP</strong></div></td>
+      <td><!--#h-->℃</td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>DOWNLINK</strong></div></td>
+      <td><!--#i--></td>
+      <td><div align="center"><strong>BW</strong></div></td>
+      <td><!--#j-->Mbps</td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>A_VGA</strong></div></td>
+      <td><!--#k--></td>
+      <td><div align="center"><strong>A_RSSI</strong></div></td>
+      <td><!--#l-->db</td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>B_VGA</strong></div></td>
+      <td><!--#m--></td>
+      <td><div align="center"><strong>B_RSSI</strong></div></td> 
+      <td><!--#n-->db</td>
+    </tr>
+    <tr>
+      <td><div align="center"><strong>CURRENT_ANT</strong></div></td>
+      <td><!--#o--></td>
+      <td><div align="center"><strong>RX_LOST</strong></div></td>
+      <td><!--#p--></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <form name="form2" method="get" action="/configure.cgi">
+    <input name="Submit" type="submit" class="STYLE2" value="Configure">
+  </form>
+  <form name="form1" method="post" action="">
+    <p class="STYLE3">AIR</p>
+  </form>
+  <p class="STYLE2 STYLE3">上海骄翔智能技术有限公司</p>
+</div>
+</body>
+</html>

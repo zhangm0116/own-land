@@ -1,0 +1,17 @@
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_parser.c
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_parser.o: ..\..\App\rtconfig.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtdebug.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtdef.h
+.\objects\finsh_parser.o: ..\..\Library\Libc\stdarg.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtservice.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtm.h
+.\objects\finsh_parser.o: ..\..\RTOS\include\rtthread.h
+.\objects\finsh_parser.o: ..\..\Library\Libc\sys/types.h
+.\objects\finsh_parser.o: ..\..\Library\Libc\string.h
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_token.h
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_node.h
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_error.h
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_parser.h
+.\objects\finsh_parser.o: ..\..\Library\Finsh\finsh_var.h

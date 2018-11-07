@@ -1,0 +1,13 @@
+.\objects\i2c_bus.o: ..\..\Drive\i2c_bus.c
+.\objects\i2c_bus.o: ..\..\Drive\i2c_bus.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtthread.h
+.\objects\i2c_bus.o: ..\..\App\rtconfig.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtdebug.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtdef.h
+.\objects\i2c_bus.o: ..\..\Library\Libc\stdarg.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtservice.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtm.h
+.\objects\i2c_bus.o: ..\..\RTOS\include\rtthread.h
+.\objects\i2c_bus.o: ..\..\Library\Libc\stdint.h
+.\objects\i2c_bus.o: ..\..\Library\Libc\string.h
+.\objects\i2c_bus.o: ..\..\Library\Libc\sys/types.h

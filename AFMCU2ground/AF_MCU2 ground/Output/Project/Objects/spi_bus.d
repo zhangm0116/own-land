@@ -1,0 +1,11 @@
+.\objects\spi_bus.o: ..\..\Drive\spi_bus.c
+.\objects\spi_bus.o: ..\..\Drive\spi_bus.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtthread.h
+.\objects\spi_bus.o: ..\..\App\rtconfig.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtdebug.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtdef.h
+.\objects\spi_bus.o: ..\..\Library\Libc\stdarg.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtservice.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtm.h
+.\objects\spi_bus.o: ..\..\RTOS\include\rtthread.h
+.\objects\spi_bus.o: ..\..\Library\Libc\stdint.h

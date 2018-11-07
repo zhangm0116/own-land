@@ -1,0 +1,10 @@
+.\objects\clock.o: ..\..\RTOS\kernel\clock.c
+.\objects\clock.o: ..\..\RTOS\include\rthw.h
+.\objects\clock.o: ..\..\RTOS\include\rtthread.h
+.\objects\clock.o: ..\..\App\rtconfig.h
+.\objects\clock.o: ..\..\RTOS\include\rtdebug.h
+.\objects\clock.o: ..\..\RTOS\include\rtdef.h
+.\objects\clock.o: ..\..\Library\Libc\stdarg.h
+.\objects\clock.o: ..\..\RTOS\include\rtservice.h
+.\objects\clock.o: ..\..\RTOS\include\rtm.h
+.\objects\clock.o: ..\..\RTOS\include\rtthread.h
